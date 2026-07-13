@@ -1,0 +1,20 @@
+[project]
+name = "mini_web_ide"
+version = "0.1.0"
+description = "Mini Web IDE - HTML/CSS/JS editoru"
+requires-python = ">=3.10"
+dependencies = [
+    "flet",
+    "flet-webview",
+]
+
+[tool.flet]
+org = "com.altai"
+product = "miniwebide"
+company = "Altai"
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.android]
+min_sdk_version = 21
