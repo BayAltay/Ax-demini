@@ -1,0 +1,2 @@
+# Ax-demini
+Ax İde
